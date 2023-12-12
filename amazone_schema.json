@@ -1,0 +1,222 @@
+customers{
+    "customer_id": "int",
+    "name": "text",
+    "gender": "text",
+    "age": "int",
+    "billing_address": {
+        "house_number": "text",
+        "street": "text",
+        "city": "text",
+        "postcode": "text",
+        "country": "text",
+    },
+    "shipping_address": {
+        "house_number": "text",
+        "street": "text",
+        "city": "text",
+        "postcode": "text",
+        "country": "text",
+    },
+    "customer_credit": "float"
+}
+
+past_orders{
+    "_id": "text",
+    "items": [
+        {
+            "product_id": ref <Products.product_id> "int",
+            "product_name": ref <Products.product_name>"text",
+            "quantity": "int",
+        },
+        //Additional Documents ...
+    ],
+    "segment": "text", // others or fresh
+    "total_amount": "float", // total_amount = quantity of product * price of product
+    "customer_id": ref <customers.customer_id>"int",
+    "status": "text", //Always Delivered
+    "payment_timestamp": "date time format"
+}
+
+current_orders{
+    "order_id": "int",
+    "items": [
+        {
+            "product_id": ref <Products.product_id> "int",
+            "product_name": ref <Products.product_name>"text",
+            "quantity": "int",
+        },
+        //Additional Documents ...
+    ],
+    "segment": "text", //
+    "total_amount": "int",
+    "customer_id": ref <customers.customer_id> "int",
+    "status": "text", // following can be used [In Cart, Paid]
+    "payment_timestamp": "date time format" //this will only be displayed once a payment is made
+}
+
+stores{
+    "store_id": "int",
+    "store_name": "text",
+    "store_address": {
+        "building_number": "text",
+        "street": "text",
+        "city": "text",
+        "postcode": "text",
+        "country": "text",
+    },
+    "location": [
+        "numeric", // Latitude
+        "numeric"  //Longitude
+    ],
+    "grocery_items": [
+        {
+            "product_id": ref<products.product_id> "int",
+            "product_name": ref <products.product_name> "text",
+        },
+        // Additional grocery items to be placed here
+    ]
+}
+
+partners{
+    "partner_id": "int",
+    "partner_name": "text",
+    "partner_age": "int",
+    "status": "int", //0 for Idle or 1 for Active
+    "current_location": [                                       //Potentially index the location for partners
+        "numeric", // Latitude                                     
+        "numeric" // Longitude
+    ],
+    "on_delivery": "boolean", // 0 for not on delivery or 1 for on delivery
+    "order_id": ref <current_orders.order_id> "int",
+    "payout": "int", //fixed amount paid to the delivery partner
+}
+
+
+Product{
+    "product_id": "int",
+    "segment": "string", //["Fresh"]
+    "category": "string", //["bakery", "drinks", "fruits and vegetables"]
+    "product_name": "string",
+    "description": "string",
+    "product_dimension_lwh" : "string",
+    "product_weight_kg": "int", //This field is to be called product_quantity_l for drinks
+    "expiry_date_ddmmyyyy": "dateformat",
+    "country_of_origin": "string",
+    "standard_price_to_customers": "float",
+    "cost_of_products_from_morrizon": "float"
+    nearest_store_id : ref <stores.store_id>
+}
+
+Product{
+    "product_id": "int",
+    "segment": "string", //["Others"]
+    "category": "string", //// ["book"]
+    "product_name": "string",
+    "description": "string",
+    "author_name": "string",
+    "publisher": "string",
+    "year_of_publication": "int",
+    "isbn": "string",
+    "product_dimension_lwh" : "string",
+    "product_weight_kg": "int",
+    "country_of_origin": "string",
+    "standard_price_to_customers": "float",
+    "cost_of_products_from_morrizon": "float"
+}
+
+Product{
+    "product_id": "int",
+    "segment": "string", //["Others"]
+    "category": "string", // ["cd"]
+    "product_name": "string",
+    "description": "string",
+    "artist_name": "string",
+    "number_of_tracks": "int",
+    "total_playing_time_hhmmss": "HHMMSS",
+    "publisher": "string",
+    "product_dimension_lwh" : "string",
+    "product_weight_kg": "int",
+    "country_of_origin": "string",
+    "standard_price_to_customers": "float",
+    "cost_of_products_from_morrizon": "float"
+}
+
+Product{
+    "product_id": "int",
+    "segment": "string", //["Others"]
+    "category": "string", //["mobile phone"]
+    "product_name": "string",
+    "description": "string",
+    "brand": "string",
+    "model": "string",
+    "colour": "string",
+    "features": ["string"],
+    "product_dimension_lwh" : "string",
+    "product_weight_kg": "int",
+    "country_of_origin": "string",
+    "standard_price_to_customers": "float",
+    "cost_of_products_from_morrizon": "float"
+}
+
+Product{
+    "product_id": "int",
+    "segment": "string", //["Others"]
+    "category": "string", //["home appliance"]
+    "product_name": "string",
+    "description": "string",
+    "colour": "string",
+    "voltage": "string",
+    "style": "string",
+    "product_dimension_lwh" : "string",
+    "product_weight_kg": "int",
+    "country_of_origin": "string",
+    "standard_price_to_customers": "float",
+    "cost_of_products_from_morrizon": "float"
+}
+
+product_rating{
+    "product_id": ref <Product._id> "int",
+    "product_name": ref <Product.product_name>,
+    "customer_id": ref <customers.customer_id> "int",
+    "customer_name": ref <customers.customer_name>,
+    "rating": "int",
+}
+
+daily_inventory_level{
+    "product_id": ref <Product.product_id>,
+    "date": "datetime format",
+    "warehouses": [
+        {
+            "warehouse_name": "text",
+            "warehouse_location": ["numeric", "numeric"], // latitude and longitude coordinates
+            "warehouse_address": {
+                "building_number": "text",
+                "street": "text",
+                "city": "text",
+                "postcode": "text",
+                "country": "text"
+            },
+            "quantity": "int"
+        },
+        // Additional warehouses in other locations...
+    ]
+}
+
+recommendations{
+    "_id": "text",
+    "customer_id": ref <cusotmers.customer_id>,
+    "recommended_products": [
+        {
+            "_id": ref <Product._id>,
+            "name": ref <Product.product_name>,
+            "rating": "int"
+        },
+        // Additional Products recommended to the customer
+    ]
+}
+
+    
+    
+
+    
+    
