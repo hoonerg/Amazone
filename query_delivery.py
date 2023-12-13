@@ -24,19 +24,17 @@ def change_status_and_move_order(db, order_id):
     db['current_orders'].delete_one({'_id': order_id})
 
 def update_partner_info(db, order_id):
-    partner = db['partners'].find_one({'order_id': order_id})
-    partner['on_delivery'] = 0
-    partner['order_id'] = None
-
+    db['partners'].update_one({'order_id': order_id}, {'$set': {'on_delivery': 0, 'order_id': None}})
+    
 def process_order(order_id):
-
-    if change_status_and_move_order(db, order_id):
+    try:
+        change_status_and_move_order(db, order_id)
         update_partner_info(db, order_id)
         return True
-    else:
+    except:
         return False
 
 if __name__ == "__main__":
-    order_id = ObjectId("656dbed02729ed87da90697e")
+    order_id = ObjectId("657868d6ce3df229b6b2d7bb") #657868d6ce3df229b6b2d7bb
     result = process_order(order_id)
     print("Operation successful:", result)

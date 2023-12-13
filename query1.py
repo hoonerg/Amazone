@@ -24,7 +24,7 @@ def find_nearest_store_with_item(item_id, customer_location, nearest_stores_dict
     nearest_store_id = None
     min_distance = float('inf')
 
-    for store in db.store.find():
+    for store in db.stores.find():
         if any(item['product_id'] == item_id for item in store["grocery_items"]):
             store_location = tuple(store["location"])
             distance = calculate_distance(store_location, customer_location)
@@ -52,7 +52,7 @@ def calculate_shortest_route(stores, customer_location):
     route = []
     store_locations = {}
     for store_id in stores.keys():
-        location = db.store.find_one({'_id': store_id})['location']
+        location = db.stores.find_one({'_id': store_id})['location']
         store_locations[store_id] = location
 
     route.append(customer_location)
@@ -88,7 +88,8 @@ def find_nearest_idle_partner(last_point):
 # Main
 def process_order(order_id):
     order = db.current_orders.find_one({"_id": order_id, 'segment': 'fresh'})
-    customer = db.customer.find_one({"customer_id": order["customer_id"]})
+    print(order)
+    customer = db.customers.find_one({"customer_id": order["customer_id"]})
     customer_location_detail = nomi.query_postal_code(customer["shipping_address"]["postcode"])
     customer_location = (customer_location_detail['latitude'], customer_location_detail['longitude'])
 
@@ -119,6 +120,6 @@ def process_order(order_id):
         }
         
 if __name__ == "__main__":
-    query_order_id = ObjectId("656f28947656bde9be7a52c6") #656f28947656bde9be7a52c5 #656f28947656bde9be7a52c6
+    query_order_id = ObjectId("657868d6ce3df229b6b2d7b8") #657868d6ce3df229b6b2d7bb #657868d6ce3df229b6b2d7ba #657868d6ce3df229b6b2d7b8
     output = process_order(query_order_id)
     print(output)

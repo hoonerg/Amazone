@@ -21,7 +21,7 @@ def find_nearest_store_with_item(product, customer_location):
     min_distance = float('inf')
     nearest_stores_dict = {}
 
-    for store in db.store.find():
+    for store in db.stores.find():
         if any(item['product_id'] == product['_id'] for item in store["grocery_items"]):
             store_location = tuple(store["location"])
             distance = calculate_distance(store_location, customer_location)
@@ -29,23 +29,25 @@ def find_nearest_store_with_item(product, customer_location):
                 min_distance = distance
                 nearest_store_id = store['_id']
 
-    return nearest_store_id
+    return store['store_name'], store
 
 # Main
 def process_order(customer_id, product_id):
-    customer = db.customer.find_one({"_id": customer_id})
+    customer = db.customers.find_one({"_id": customer_id})
     product = db.products.find_one({"_id": product_id})
 
     customer_location_detail = nomi.query_postal_code(customer["shipping_address"]["postcode"])
     customer_location = (customer_location_detail['latitude'], customer_location_detail['longitude'])
 
-    nearest_store = find_nearest_store_with_item(product, customer_location)
+    store_name, nearest_store = find_nearest_store_with_item(product, customer_location)
     if nearest_store == None:
         return {'availability': False,
-                'store': None}
+                'Store_name': store_name,
+                'store_info': None}
     elif nearest_store != None:
         return {'availability': True,
-                'store': nearest_store}
+                'Store_name': store_name,
+                'store_info': nearest_store}
         
 if __name__ == "__main__":
     print(process_order(ObjectId("656dbed02729ed87da90697e"), ObjectId("65688ffab62ecd780f8b527e"))) # customer_id, product_id
