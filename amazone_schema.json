@@ -24,15 +24,15 @@ past_orders{
     "_id": "text",
     "items": [
         {
-            "product_id": ref <Products.product_id> "int",
-            "product_name": ref <Products.product_name>"text",
+            "product_id": ref <products._id> "int",
+            "product_name": ref <products.product_name> "text",
             "quantity": "int",
         },
         //Additional Documents ...
     ],
     "segment": "text", // others or fresh
     "total_amount": "float", // total_amount = quantity of product * price of product
-    "customer_id": ref <customers.customer_id>"int",
+    "customer_id": ref <customers._id>"int",
     "status": "text", //Always Delivered
     "payment_timestamp": "date time format"
 }
@@ -41,15 +41,15 @@ current_orders{
     "_id": "int",
     "items": [
         {
-            "product_id": ref <Products.product_id> "int",
-            "product_name": ref <Products.product_name>"text",
+            "product_id": ref <products._id> "int",
+            "product_name": ref <products.product_name> "text",
             "quantity": "int",
         },
         //Additional Documents ...
     ],
     "segment": "text", //
     "total_amount": "int",
-    "customer_id": ref <customers.customer_id> "int",
+    "customer_id": ref <customers._id> "int",
     "status": "text", // following can be used [In Cart, Paid]
     "payment_timestamp": "date time format" //this will only be displayed once a payment is made
 }
@@ -67,7 +67,7 @@ stores{
     "location": [ "numeric", "numeric" ], // Latitude, Longitude
     "grocery_items": [
         {
-            "product_id": ref <products.product_id> "int",
+            "product_id": ref <products._id> "int",
             "product_name": ref <products.product_name> "text",
         },
     ] // Array of products available in the store
@@ -80,7 +80,7 @@ partners{
     "status": "boolean", // 0 for Inactive or 1 for Active
     "current_location": [ "numeric", "numeric" ], // Latitude, Longitude
     "on_delivery": "boolean", // 0 for Idle or 1 for on delivery
-    "order_id": ref <current_orders.order_id> "int", // Order ID of the order being delivered
+    "order_id": ref <current_orders._id> "int", // Order ID of the order being delivered
     "payout": "int", // Fixed amount paid to the delivery partner 
 }
 
@@ -96,8 +96,8 @@ Product{
     "expiry_date_ddmmyyyy": "dateformat",
     "country_of_origin": "string",
     "standard_price_to_customers": "float",
-    "cost_of_products_from_morrizon": "float"
-    nearest_store_id : ref <stores.store_id>
+    "cost_of_products_from_morrizon": "float",
+    "nearest_store_id": ref <stores._id>
 }
 
 Product{
@@ -169,16 +169,16 @@ Product{
 
 product_rating{
     "_id": "int",
-    "product_id": ref <Product._id> "int",
-    "product_name": ref <Product.product_name>,
-    "customer_id": ref <customers.customer_id> "int",
+    "product_id": ref <products._id> "int",
+    "product_name": ref <products.product_name>,
+    "customer_id": ref <customers._id> "int",
     "customer_name": ref <customers.customer_name>,
     "rating": "int",
 }
 
 daily_inventory_level{
     "_id": "int",    
-    "product_id": ref <Product.product_id>,
+    "product_id": ref <products._id>,
     "date": "datetime format",
     "warehouses": [
         {
@@ -199,10 +199,10 @@ daily_inventory_level{
 
 recommendations{
     "_id": "text",
-    "customer_id": ref <cusotmers.customer_id>,
+    "customer_id": ref <cusotmers._id>,
     "recommended_products": [
         {
-            "_id": ref <Product._id>,
+            "_id": ref <products._id>,
             "name": ref <Product.product_name>,
             "rating": "int"
         },
