@@ -1,5 +1,5 @@
 customers{
-    "customer_id": "int",
+    "_id": "int",
     "name": "text",
     "gender": "text",
     "age": "int",
@@ -38,7 +38,7 @@ past_orders{
 }
 
 current_orders{
-    "order_id": "int",
+    "_id": "int",
     "items": [
         {
             "product_id": ref <Products.product_id> "int",
@@ -55,7 +55,7 @@ current_orders{
 }
 
 stores{
-    "store_id": "int",
+    "_id": "int",
     "store_name": "text",
     "store_address": {
         "building_number": "text",
@@ -78,7 +78,7 @@ stores{
 }
 
 partners{
-    "partner_id": "int",
+    "_id": "int",
     "partner_name": "text",
     "partner_age": "int",
     "status": "int", //0 for Idle or 1 for Active
@@ -93,7 +93,7 @@ partners{
 
 
 Product{
-    "product_id": "int",
+    "_id": "int",
     "segment": "string", //["Fresh"]
     "category": "string", //["bakery", "drinks", "fruits and vegetables"]
     "product_name": "string",
@@ -108,7 +108,7 @@ Product{
 }
 
 Product{
-    "product_id": "int",
+    "_id": "int",
     "segment": "string", //["Others"]
     "category": "string", //// ["book"]
     "product_name": "string",
@@ -125,7 +125,7 @@ Product{
 }
 
 Product{
-    "product_id": "int",
+    "_id": "int",
     "segment": "string", //["Others"]
     "category": "string", // ["cd"]
     "product_name": "string",
@@ -142,7 +142,7 @@ Product{
 }
 
 Product{
-    "product_id": "int",
+    "_id": "int",
     "segment": "string", //["Others"]
     "category": "string", //["mobile phone"]
     "product_name": "string",
@@ -159,7 +159,7 @@ Product{
 }
 
 Product{
-    "product_id": "int",
+    "_id": "int",
     "segment": "string", //["Others"]
     "category": "string", //["home appliance"]
     "product_name": "string",
@@ -175,6 +175,7 @@ Product{
 }
 
 product_rating{
+    "_id": "int",
     "product_id": ref <Product._id> "int",
     "product_name": ref <Product.product_name>,
     "customer_id": ref <customers.customer_id> "int",
@@ -183,6 +184,7 @@ product_rating{
 }
 
 daily_inventory_level{
+    "_id": "int",    
     "product_id": ref <Product.product_id>,
     "date": "datetime format",
     "warehouses": [
