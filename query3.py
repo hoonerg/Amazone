@@ -150,3 +150,4 @@ customer_id = 3 # this is the customer_id
 query2_order = add_items_to_cart(product_list, customer_id, segment)
 
 make_payment(query2_order)
+
