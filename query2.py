@@ -41,6 +41,8 @@ def process_order(customer_id, product_id):
 
     nearest_store = find_nearest_store_with_item(product, customer_location)
     if nearest_store == None:
-        return False, None
+        return {'availability': False,
+                'store': None}
     elif nearest_store != None:
-        return True, nearest_store
+        return {'availability': True,
+                'store': nearest_store}

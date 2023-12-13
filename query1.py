@@ -87,7 +87,7 @@ def find_nearest_idle_partner(last_point):
 
 # Main
 def process_order(order_id):
-    order = db.current_orders.find_one({"_id": order_id})
+    order = db.current_orders.find_one({"_id": order_id, 'segment': 'fresh'})
     customer = db.customer.find_one({"customer_id": order["customer_id"]})
     customer_location_detail = nomi.query_postal_code(customer["shipping_address"]["postcode"])
     customer_location = (customer_location_detail['latitude'], customer_location_detail['longitude'])
@@ -101,6 +101,7 @@ def process_order(order_id):
         db.current_orders.update_one({"_id": order_id}, {"$set": {"status": "Out for Delivery"}})
 
         return {
+            "available": True,
             "order_id": order_id,
             "delivery_partner_id": nearest_partner["_id"],
             "partner_name": nearest_partner["partner_name"],
@@ -108,4 +109,11 @@ def process_order(order_id):
             "final_destination": customer_location
         }
     else:
-        print("No available delivery partner")
+        return {
+            "available": False,
+            "order_id": order_id,
+            "delivery_partner_id": nearest_partner["_id"],
+            "partner_name": nearest_partner["partner_name"],
+            "route": route,
+            "final_destination": customer_location
+        }
