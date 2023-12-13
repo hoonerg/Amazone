@@ -46,3 +46,6 @@ def process_order(customer_id, product_id):
     elif nearest_store != None:
         return {'availability': True,
                 'store': nearest_store}
+        
+if __name__ == "__main__":
+    print(process_order(ObjectId("656dbed02729ed87da90697e"), ObjectId("65688ffab62ecd780f8b527e"))) # customer_id, product_id

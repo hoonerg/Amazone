@@ -117,3 +117,8 @@ def process_order(order_id):
             "route": route,
             "final_destination": customer_location
         }
+        
+if __name__ == "__main__":
+    query_order_id = ObjectId("656f28947656bde9be7a52c6") #656f28947656bde9be7a52c5 #656f28947656bde9be7a52c6
+    output = process_order(query_order_id)
+    print(output)
