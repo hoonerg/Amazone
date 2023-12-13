@@ -1,5 +1,9 @@
 # Requires the PyMongo package.
 # https://api.mongodb.com/python/current
+
+from pymongo import MongoClient
+from bson.objectid import ObjectId
+
 client = MongoClient('mongodb+srv://sailor:salaar@amazone.4sbahbn.mongodb.net/')
 result = client['amazone']['past_orders'].aggregate([
     {
