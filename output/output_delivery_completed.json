@@ -1,0 +1,80 @@
+//Output
+{
+    "result": true
+}
+
+// Order document in current_orders collection before the query
+{
+    "_id": {
+      "$oid": "657868d6ce3df229b6b2d7ba"
+    },
+    "items": [
+      {
+        "product_id": {
+          "$oid": "65688ffab62ecd780f8b5277"
+        },
+        "product_name": "Almond Milk",
+        "quantity": 3
+      },
+      {
+        "product_id": {
+          "$oid": "656ba1e3492bfd49374e0bf3"
+        },
+        "product_name": "Cucumber",
+        "quantity": 3
+      },
+      {
+        "product_id": {
+          "$oid": "65688ffab62ecd780f8b5275"
+        },
+        "product_name": "Semi-skimmed Milk",
+        "quantity": 3
+      }
+    ],
+    "segment": "fresh",
+    "total_amount": 47.55,
+    "customer_id": 10,
+    "status": "Out for Delivery",
+    "payment_timestamp": {
+      "$date": "2023-12-14T10:38:11.937Z"
+    }
+  }
+
+
+// Order document in past_orders collection after the query
+
+{
+    "_id": {
+      "$oid": "657868d6ce3df229b6b2d7ba"
+    },
+    "items": [
+      {
+        "product_id": {
+          "$oid": "65688ffab62ecd780f8b5277"
+        },
+        "product_name": "Almond Milk",
+        "quantity": 3
+      },
+      {
+        "product_id": {
+          "$oid": "656ba1e3492bfd49374e0bf3"
+        },
+        "product_name": "Cucumber",
+        "quantity": 3
+      },
+      {
+        "product_id": {
+          "$oid": "65688ffab62ecd780f8b5275"
+        },
+        "product_name": "Semi-skimmed Milk",
+        "quantity": 3
+      }
+    ],
+    "segment": "fresh",
+    "total_amount": 47.55,
+    "customer_id": 10,
+    "status": "Delivered",
+    "payment_timestamp": {
+      "$date": "2023-12-14T10:38:11.937Z"
+    }
+  }
