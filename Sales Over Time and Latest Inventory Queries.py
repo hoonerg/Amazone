@@ -111,7 +111,7 @@ print(df_inventory)
 # %%
 # Let's plot the two categories and colour-code the segments within each
 
-def plot_inventory(df, segment_name, date):
+def plot_inventory(df, segment_name, date, label_font_size, legend_loc = 'best'):
     df.sort_values(by = ['Category', 'Product Name'], inplace=True)
     categories = df['Category'].unique()
 
@@ -120,29 +120,32 @@ def plot_inventory(df, segment_name, date):
     category_colors = dict(zip(categories, colors))
 
     # Create the plot
-    plt.figure(figsize = (14, 12))
+    plt.figure(figsize = (15, 16))
     for category, color in category_colors.items():
         df_by_category = df[df['Category'] == category]
         plt.bar(df_by_category['Product Name'], df_by_category['Total Inventory'], color = color, label = category)
 
-    plt.xlabel('Product Name')
-    plt.ylabel('Total Inventory')
+    plt.xlabel('Product Name', fontsize = label_font_size)
+    plt.ylabel('Total Inventory', fontsize = label_font_size)
 
     # Set the y interval to 500
     max_inventory = df['Total Inventory'].max()
-    plt.yticks(np.arange(0, max_inventory + 1, 500))
+    plt.yticks(np.arange(0, max_inventory + 1, 500), fontsize = 16)
 
-    plt.title(f'Total Inventory by Product: {segment_name} Segment for {date}')
-    plt.xticks(rotation = 90)
-    plt.legend(title = 'Category')
+    plt.title(f'Total Inventory by Product: {segment_name} Segment for {date}', fontsize = 26)
+    plt.xticks(rotation = 90, fontsize = 16)
+    legend = plt.legend(title = 'Category', fontsize = 16, loc = legend_loc, facecolor = 'white', framealpha = 1)
+    
+    legend.get_title().set_fontsize(18) 
+    #plt.legend(title = 'Category', fontsize = 16).get_title().set_fontsize(18) 
     plt.tight_layout()
     plt.show()
 
 # Plot for each segment
-plot_inventory(df_fresh_1, 'Fresh', '2023-12-13')
-plot_inventory(df_fresh_2, 'Fresh', '2023-12-14')
-plot_inventory(df_others_1, 'Others', '2023-12-13')
-plot_inventory(df_others_2, 'Others', '2023-12-14')
+plot_inventory(df_fresh_1, 'Fresh', '2023-12-13', 20,)
+plot_inventory(df_fresh_2, 'Fresh', '2023-12-14', 20,)
+plot_inventory(df_others_1, 'Others', '2023-12-13', 20, legend_loc = 'lower left')
+plot_inventory(df_others_2, 'Others', '2023-12-14', 20, legend_loc = 'lower left')
 # %%
 # The query below retrives daily sales by segment and category. We can create two plots, one for each segment, 
 # and plot sales grouped by category over time.
@@ -209,9 +212,9 @@ def plot_sales(df, segment):
     for category, group in df.groupby('Category'):
         plt.plot(group['Date'], group['Total Sales'], label = category)
 
-    plt.title(f'Total Sales for {segment} Segment')
-    plt.xlabel('Date')
-    plt.ylabel('Total Sales')
+    plt.title(f'Total Daily Sales for {segment} Segment', fontsize = 22)
+    plt.xlabel('Date', fontsize = 14)
+    plt.ylabel('Total Sales', fontsize = 14)
 
     date_range = pd.date_range(df['Date'].min(), df['Date'].max(), freq='7D')
     date_labels = date_range.strftime('%Y-%m-%d')
@@ -219,7 +222,7 @@ def plot_sales(df, segment):
     # Set x-axis 
     plt.xticks(date_range, date_labels)
     plt.xticks(rotation = 45)
-    plt.legend(title = 'Category')
+    plt.legend(title = 'Category', fontsize = 14).get_title().set_fontsize(16) 
     plt.tight_layout()
     plt.show()
 
@@ -227,3 +230,4 @@ def plot_sales(df, segment):
 plot_sales(df_fresh_sales, 'Fresh')
 plot_sales(df_others_sales, 'Others')
 client.close()
+# %%
