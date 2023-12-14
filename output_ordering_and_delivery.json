@@ -1,0 +1,13 @@
+{
+    "available": true,
+    "order_id": ObjectId("657868d6ce3df229b6b2d7ba"),
+    "delivery_partner_id": ObjectId("6574ccd7e5b8d73f6c72fb23"),
+    "partner_name": "Harry Wilson",
+    "route": 
+    [
+        [53.455114, -2.264552], 
+        [53.470538, -2.244934], 
+        [53.477723, -2.231328]
+    ],
+    "final_destination": [53.455114, -2.264552]
+}
