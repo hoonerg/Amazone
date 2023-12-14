@@ -54,11 +54,17 @@ pipeline_inventory = [
         }
     },
     # Unwind the array
-    {'$unwind': '$selected_inventory'},
+    {
+        '$unwind': '$selected_inventory'
+    },
     # Replace the root with the new root
-    {'$replaceRoot': {'newRoot': '$selected_inventory'}},
-    #Another unwind sequence
-    {'$unwind': '$warehouses'},
+    {
+        '$replaceRoot': {'newRoot': '$selected_inventory'}
+    },
+    # Another unwind sequence
+    {
+        '$unwind': '$warehouses'
+    },
     {
         '$lookup': {
             'from': 'products',
