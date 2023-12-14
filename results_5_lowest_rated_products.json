@@ -1,0 +1,25 @@
+{
+    _id: ObjectId("65688c40b62ecd780f8b526e"),
+    product_name: 'Xiaomi Mi 12',
+    average_rating: 1.5
+}
+{
+    _id: ObjectId("65688ffab62ecd780f8b527c"),
+    product_name: 'Lemonade',
+    average_rating: 1.75
+}
+{
+    _id: ObjectId("656dba8a170421f44bbe80bd"),
+    product_name: 'Television',
+    average_rating: 2
+}
+{
+    _id: ObjectId("65688ffab62ecd780f8b5275"),
+    product_name: 'Semi-skimmed Milk',
+    average_rating: 2
+}
+{
+    _id: ObjectId("656db1269f73564819627c6e"),
+    product_name: "NewJeans 1st EP 'New Jeans'",
+    average_rating: 2
+}
