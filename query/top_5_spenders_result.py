@@ -1,9 +1,6 @@
 # Requires the PyMongo package.
 # https://api.mongodb.com/python/current
 
-from pymongo import MongoClient
-from bson.objectid import ObjectId
-
 client = MongoClient('mongodb+srv://sailor:salaar@amazone.4sbahbn.mongodb.net/')
 result = client['amazone']['past_orders'].aggregate([
     {
@@ -18,22 +15,36 @@ result = client['amazone']['past_orders'].aggregate([
     }, {
         '$unwind': '$product'
     }, {
-        '$project': {
-            'product_name': '$product.product_name', 
-            'quantity': '$items.quantity', 
-            'price': '$product.standard_price_to_customers', 
-            'total_amount': {
-                '$multiply': [
-                    '$items.quantity', '$product.standard_price_to_customers'
-                ]
+        '$group': {
+            '_id': '$items.product_id', 
+            'product_name': {
+                '$first': '$product.product_name'
+            }, 
+            'total_quantity': {
+                '$sum': '$items.quantity'
+            }, 
+            'total_revenue': {
+                '$sum': {
+                    '$multiply': [
+                        '$product.standard_price_to_customers', '$items.quantity'
+                    ]
+                }
             }
         }
     }, {
         '$sort': {
-            'total_amount': -1
+            'total_revenue': -1
         }
     }, {
         '$limit': 5
+    }, {
+        '$project': {
+            '_id': 0, 
+            'product_id': '$_id', 
+            'product_name': 1, 
+            'total_quantity': 1, 
+            'total_revenue': 1
+        }
     }
 ])
 

@@ -1,0 +1,40 @@
+[{
+  "product_name": "Television",
+  "total_quantity": 17,
+  "total_revenue": 17000,
+  "product_id": {
+    "$oid": "656dba8a170421f44bbe80bd"
+  }
+},
+{
+  "product_name": "Google Pixel 8",
+  "total_quantity": 24,
+  "total_revenue": 16800,
+  "product_id": {
+    "$oid": "65688c40b62ecd780f8b526c"
+  }
+},
+{
+  "product_name": "Asus ROG Phone 5",
+  "total_quantity": 15,
+  "total_revenue": 16500,
+  "product_id": {
+    "$oid": "65688c40b62ecd780f8b5273"
+  }
+},
+{
+  "product_name": "Air Conditioning",
+  "total_quantity": 22,
+  "total_revenue": 15400,
+  "product_id": {
+    "$oid": "656dbaa9170421f44bbe80be"
+  }
+},
+{
+  "product_name": "Sony Xperia 10",
+  "total_quantity": 23,
+  "total_revenue": 12650,
+  "product_id": {
+    "$oid": "65688c40b62ecd780f8b526f"
+  }
+}]
