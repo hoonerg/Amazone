@@ -1,6 +1,5 @@
-# Aggregation pipeline to look up the total spend for each customer and find the top 5 spender
-"""
-db.customers.aggregate(
+client = MongoClient('mongodb+srv://edwinciw:e13d97c46@amazone.4sbahbn.mongodb.net/')
+result = client['amazone']['customers'].aggregate(
   [
     {
       $lookup: {
@@ -92,6 +91,7 @@ db.customers.aggregate(
   ],
   { maxTimeMS: 60000, allowDiskUse: true }
 );
+
 
 
 
