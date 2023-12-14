@@ -53,15 +53,15 @@ pipeline_inventory = [
             'as': 'selected_inventory'
         }
     },
-    # Unwind the array
+        # Unwind the array
     {
         '$unwind': '$selected_inventory'
     },
-    # Replace the root with the new root
+        # Replace the root with the new root
     {
         '$replaceRoot': {'newRoot': '$selected_inventory'}
     },
-    # Another unwind sequence
+        # Another unwind sequence
     {
         '$unwind': '$warehouses'
     },
@@ -73,7 +73,9 @@ pipeline_inventory = [
             'as': 'product_details'
         }
     },
-    {'$unwind': '$product_details'},
+    {
+        '$unwind': '$product_details'
+    },
     # Group by product and get their total inventory across all warehouses
     {
         '$group': {
