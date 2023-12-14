@@ -212,9 +212,9 @@ def plot_sales(df, segment):
     for category, group in df.groupby('Category'):
         plt.plot(group['Date'], group['Total Sales'], label = category)
 
-    plt.title(f'Total Sales for {segment} Segment')
-    plt.xlabel('Date')
-    plt.ylabel('Total Sales')
+    plt.title(f'Total Daily Sales for {segment} Segment', fontsize = 22)
+    plt.xlabel('Date', fontsize = 14)
+    plt.ylabel('Total Sales', fontsize = 14)
 
     date_range = pd.date_range(df['Date'].min(), df['Date'].max(), freq='7D')
     date_labels = date_range.strftime('%Y-%m-%d')
@@ -222,7 +222,7 @@ def plot_sales(df, segment):
     # Set x-axis 
     plt.xticks(date_range, date_labels)
     plt.xticks(rotation = 45)
-    plt.legend(title = 'Category')
+    plt.legend(title = 'Category', fontsize = 14).get_title().set_fontsize(16) 
     plt.tight_layout()
     plt.show()
 
@@ -230,3 +230,4 @@ def plot_sales(df, segment):
 plot_sales(df_fresh_sales, 'Fresh')
 plot_sales(df_others_sales, 'Others')
 client.close()
+# %%
