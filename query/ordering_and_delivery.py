@@ -88,7 +88,6 @@ def find_nearest_idle_partner(last_point):
 # Main
 def process_order(order_id):
     order = db.current_orders.find_one({"_id": order_id, 'segment': 'fresh'})
-    print(order)
     customer = db.customers.find_one({"customer_id": order["customer_id"]})
     customer_location_detail = nomi.query_postal_code(customer["shipping_address"]["postcode"])
     customer_location = (customer_location_detail['latitude'], customer_location_detail['longitude'])

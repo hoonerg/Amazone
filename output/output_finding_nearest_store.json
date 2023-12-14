@@ -1,0 +1,65 @@
+{
+    "availability": true,
+    "Store_name": "Morrisons Oxford Road",
+    "store_info": {
+      "_id": {
+        "$oid": "656ed0c9c42f56e05ed7b477"
+      },
+      "store_name": "Morrisons Oxford Road",
+      "store_address": {
+        "building_number": "89",
+        "street": "Portland Street",
+        "city": "Manchester",
+        "postcode": "M4 7AA",
+        "country": "UK"
+      },
+      "location": [
+        53.482176,
+        -2.240856
+      ],
+      "grocery_items": [
+        {
+          "product_id": {
+            "$oid": "65688ffab62ecd780f8b5275"
+          },
+          "product_name": "Semi-skimmed Milk"
+        },
+        {
+          "product_id": {
+            "$oid": "65688ffab62ecd780f8b527b"
+          },
+          "product_name": "Berry Smoothie"
+        },
+        {
+          "product_id": {
+            "$oid": "656ba1e3492bfd49374e0bfa"
+          },
+          "product_name": "Milk Brownies"
+        },
+        {
+          "product_id": {
+            "$oid": "656ba1e3492bfd49374e0bf7"
+          },
+          "product_name": "Pain Au Chocolat"
+        },
+        {
+          "product_id": {
+            "$oid": "65688ffab62ecd780f8b527d"
+          },
+          "product_name": "Ginger Beer"
+        },
+        {
+          "product_id": {
+            "$oid": "656ba1e3492bfd49374e0bf4"
+          },
+          "product_name": "Cantaloupe"
+        },
+        {
+          "product_id": {
+            "$oid": "65688ffab62ecd780f8b527c"
+          },
+          "product_name": "Lemonade"
+        }
+      ]
+    }
+  }

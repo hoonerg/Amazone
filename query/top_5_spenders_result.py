@@ -36,3 +36,6 @@ result = client['amazone']['past_orders'].aggregate([
         '$limit': 5
     }
 ])
+
+for document in result:
+    print(document)

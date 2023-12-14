@@ -50,4 +50,5 @@ def process_order(customer_id, product_id):
                 'store_info': nearest_store}
         
 if __name__ == "__main__":
-    print(process_order(ObjectId("656dbed02729ed87da90697e"), ObjectId("65688ffab62ecd780f8b527e"))) # customer_id, product_id
+    output = process_order(ObjectId("656dbed02729ed87da90697e"), ObjectId("65688ffab62ecd780f8b527e")) # customer_id, product_id
+    print(output)
