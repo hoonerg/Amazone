@@ -92,6 +92,5 @@ result = client['amazone']['customers'].aggregate(
   { maxTimeMS: 60000, allowDiskUse: true }
 );
 
-
-
-
+for document in result:
+    print(document)
