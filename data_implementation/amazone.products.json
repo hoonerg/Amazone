@@ -1,0 +1,1140 @@
+[{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b526a"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Apple",
+  "model": "iPhone 15",
+  "colour": "Silver",
+  "features": [
+    "5G Compatible",
+    "A15 Bionic Chip",
+    "Triple Camera System"
+  ],
+  "product_name": "Apple iPhone 15",
+  "description": "6.7 inch",
+  "product_dimension_lwh": "10x15x10",
+  "product_weight_kg": 0.5,
+  "product_quantity": 1,
+  "customer_rating_score": 4.7,
+  "standard_price_to_customers": 999,
+  "country_of_origin": "USA",
+  "cost_to_Amazone": 700
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b526b"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Samsung",
+  "model": "Galaxy S30",
+  "colour": "Midnight Black",
+  "features": [
+    "Dynamic AMOLED 2X",
+    "120Hz Refresh Rate",
+    "108MP Camera"
+  ],
+  "product_name": "Samsung Galaxy S30",
+  "description": "6.2 inch AMOLED display",
+  "product_dimension_lwh": "8x15x9",
+  "product_weight_kg": 0.4,
+  "product_quantity": 1,
+  "customer_rating_score": 4.6,
+  "standard_price_to_customers": 850,
+  "country_of_origin": "South Korea",
+  "cost_to_Amazone": 625
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b526c"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Google",
+  "model": "Pixel 8",
+  "colour": "Clearly White",
+  "features": [
+    "Google Assistant",
+    "Titan M Security Chip",
+    "Night Sight Camera"
+  ],
+  "product_name": "Google Pixel 8",
+  "description": "6.0 inch Full HD",
+  "product_dimension_lwh": "9x14x9",
+  "product_weight_kg": 0.45,
+  "product_quantity": 1,
+  "customer_rating_score": 4.5,
+  "standard_price_to_customers": 700,
+  "country_of_origin": "USA",
+  "cost_to_Amazone": 400
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b526d"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "OnePlus",
+  "model": "11",
+  "colour": "Celestial Silver",
+  "features": [
+    "Fluid AMOLED",
+    "Snapdragon Processor",
+    "Warp Charge Technology"
+  ],
+  "product_name": "OnePlus 11",
+  "description": "6.55 inch Fluid AMOLED",
+  "product_dimension_lwh": "8.5x15.5x8.5",
+  "product_weight_kg": 0.48,
+  "product_quantity": 1,
+  "customer_rating_score": 4.8,
+  "standard_price_to_customers": 750,
+  "country_of_origin": "China",
+  "cost_to_Amazone": 425
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b526e"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Xiaomi",
+  "model": "Mi 12",
+  "colour": "Horizon Blue",
+  "features": [
+    "AI Triple Camera",
+    "Super AMOLED Display",
+    "Fast Charging"
+  ],
+  "product_name": "Xiaomi Mi 12",
+  "description": "6.3 inch OLED",
+  "product_dimension_lwh": "9x14.5x9.5",
+  "product_weight_kg": 0.47,
+  "product_quantity": 1,
+  "customer_rating_score": 4.4,
+  "standard_price_to_customers": 600,
+  "country_of_origin": "China",
+  "cost_to_Amazone": 355
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b526f"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Sony",
+  "model": "Xperia 10",
+  "colour": "Navy",
+  "features": [
+    "CinematicWide Display",
+    "High-Resolution Audio",
+    "Triple Lens Camera"
+  ],
+  "product_name": "Sony Xperia 10",
+  "description": "6.5 inch HDR display",
+  "product_dimension_lwh": "9.5x15x9.5",
+  "product_weight_kg": 0.49,
+  "product_quantity": 1,
+  "customer_rating_score": 4.3,
+  "standard_price_to_customers": 550,
+  "country_of_origin": "Japan",
+  "cost_to_Amazone": 360
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b5270"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Motorola",
+  "model": "Edge",
+  "colour": "Solar Black",
+  "features": [
+    "90Hz OLED Display",
+    "64MP Triple Camera System",
+    "TurboPower Charging"
+  ],
+  "product_name": "Motorola Edge",
+  "description": "6.7 inch Max Vision",
+  "product_dimension_lwh": "8.6x14.8x9",
+  "product_weight_kg": 0.5,
+  "product_quantity": 1,
+  "customer_rating_score": 4.6,
+  "standard_price_to_customers": 650,
+  "country_of_origin": "USA",
+  "cost_to_Amazone": 420
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b5271"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "LG",
+  "model": "Wing",
+  "colour": "Illusion Sky",
+  "features": [
+    "Swivel Mode",
+    "Dual Screen",
+    "Gimbal Motion Camera"
+  ],
+  "product_name": "LG Wing",
+  "description": "6.8 inch Rotating Screen",
+  "product_dimension_lwh": "10.5x16x10.5",
+  "product_weight_kg": 0.6,
+  "product_quantity": 1,
+  "customer_rating_score": 4.2,
+  "standard_price_to_customers": 999,
+  "country_of_origin": "South Korea",
+  "cost_to_Amazone": 800
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b5272"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Huawei",
+  "model": "P40 Pro",
+  "colour": "Deep Sea Blue",
+  "features": [
+    "Ultra Vision Leica Quad Camera",
+    "Kirin 990 5G Chipset",
+    "Water and Dust Resistant"
+  ],
+  "product_name": "Huawei P40 Pro",
+  "description": "6.58 inch OLED",
+  "product_dimension_lwh": "9x15.5x8.5",
+  "product_weight_kg": 0.42,
+  "product_quantity": 1,
+  "customer_rating_score": 4.7,
+  "standard_price_to_customers": 900,
+  "country_of_origin": "China",
+  "cost_to_Amazone": 850
+},
+{
+  "_id": {
+    "$oid": "65688c40b62ecd780f8b5273"
+  },
+  "segment": "others",
+  "category": "mobile phone",
+  "brand": "Asus",
+  "model": "ROG Phone 5",
+  "colour": "Phantom Black",
+  "features": [
+    "144Hz AMOLED Display",
+    "GameCool System",
+    "ROG Vision Display"
+  ],
+  "product_name": "Asus ROG Phone 5",
+  "description": "6.78 inch AMOLED",
+  "product_dimension_lwh": "9.2x16.2x9.2",
+  "product_weight_kg": 0.52,
+  "product_quantity": 1,
+  "customer_rating_score": 4.9,
+  "standard_price_to_customers": 1100,
+  "country_of_origin": "Taiwan",
+  "cost_to_Amazone": 900
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b5275"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Semi-skimmed Milk",
+  "description": "Two 1L Fresh semi-skimmed milk. Ideal for daily consumption with a perfect balance of taste and health.",
+  "product_dimension_lwh": "10x10x30",
+  "product_weight_kg": 1,
+  "product_quantity": 2,
+  "expiry_date_ddmmyyyy": "12/12/2023",
+  "country_of_origin": "UK",
+  "customer_rating_score": 4.3,
+  "standard_price_to_customers": 8,
+  "cost_to_Amazone": 7
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b5276"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Orange Juice",
+  "description": "500ml of freshly squeezed orange juice. Packed with vitamins for a healthy start to your day.",
+  "product_dimension_lwh": "8x8x22",
+  "product_weight_kg": 0.5,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "15/01/2024",
+  "country_of_origin": "Spain",
+  "customer_rating_score": 4.5,
+  "standard_price_to_customers": 6,
+  "cost_to_Amazone": 5
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b5277"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Almond Milk",
+  "description": "One 1L carton of unsweetened almond milk. A dairy-free, vegan-friendly option.",
+  "product_dimension_lwh": "9x9x28",
+  "product_weight_kg": 1.1,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "10/03/2024",
+  "country_of_origin": "USA",
+  "customer_rating_score": 4.2,
+  "standard_price_to_customers": 7,
+  "cost_to_Amazone": 5
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b5278"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Coconut Water",
+  "description": "Two 500ml bottles of pure coconut water. Hydrating and refreshing, straight from tropical coasts.",
+  "product_dimension_lwh": "7x7x24",
+  "product_weight_kg": 0.5,
+  "product_quantity": 2,
+  "expiry_date_ddmmyyyy": "22/04/2024",
+  "country_of_origin": "Thailand",
+  "customer_rating_score": 4.6,
+  "standard_price_to_customers": 10,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b5279"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Green Tea",
+  "description": "One box containing 20 bags of organic green tea. Perfect for a soothing and healthy beverage.",
+  "product_dimension_lwh": "6x8x12",
+  "product_weight_kg": 0.2,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "05/05/2024",
+  "country_of_origin": "China",
+  "customer_rating_score": 4.1,
+  "standard_price_to_customers": 5,
+  "cost_to_Amazone": 4
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b527a"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Apple Cider",
+  "description": "750ml of crisp, sparkling apple cider. A refreshing drink with a tangy twist.",
+  "product_dimension_lwh": "9x9x30",
+  "product_weight_kg": 0.75,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "18/07/2023",
+  "country_of_origin": "France",
+  "customer_rating_score": 4.7,
+  "standard_price_to_customers": 12,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b527b"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Berry Smoothie",
+  "description": "300ml bottle of mixed berry smoothie. A delicious blend of strawberries, blueberries, and raspberries.",
+  "product_dimension_lwh": "6x6x20",
+  "product_weight_kg": 0.3,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "30/08/2023",
+  "country_of_origin": "UK",
+  "customer_rating_score": 4.4,
+  "standard_price_to_customers": 7,
+  "cost_to_Amazone": 6
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b527c"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Lemonade",
+  "description": "One 1L bottle of homemade-style lemonade. Refreshingly tart and sweet for summer days.",
+  "product_dimension_lwh": "10x10x32",
+  "product_weight_kg": 1,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "01/09/2023",
+  "country_of_origin": "Italy",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 9,
+  "cost_to_Amazone": 6
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b527d"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Ginger Beer",
+  "description": "500ml of non-alcoholic, spicy ginger beer. A bold, fizzy, and refreshing choice.",
+  "product_dimension_lwh": "8x8x25",
+  "product_weight_kg": 0.6,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "15/11/2023",
+  "country_of_origin": "Jamaica",
+  "customer_rating_score": 4.8,
+  "standard_price_to_customers": 7,
+  "cost_to_Amazone": 4
+},
+{
+  "_id": {
+    "$oid": "65688ffab62ecd780f8b527e"
+  },
+  "segment": "fresh",
+  "category": "drinks",
+  "product_name": "Pomegranate Juice",
+  "description": "Two 250ml bottles of pure pomegranate juice. Rich in antioxidants and great for health.",
+  "product_dimension_lwh": "5x5x20",
+  "product_weight_kg": 0.25,
+  "product_quantity": 2,
+  "expiry_date_ddmmyyyy": "25/10/2023",
+  "country_of_origin": "Turkey",
+  "customer_rating_score": 4.9,
+  "standard_price_to_customers": 11,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "656ba1e2492bfd49374e0bf2"
+  },
+  "segment": "fresh",
+  "category": "fruits & vegetables",
+  "product_name": "Box Of Apple",
+  "description": " A sensory journey that combines elegance, flavor, and the rich heritage of Japanese fruit cultivation. Each bite is a testament to the exceptional quality that defines these sought-after apples.",
+  "product_dimension_lwh": "20 x 20 x 20",
+  "product_weight_kg": 8,
+  "product_quantity": 12,
+  "expiry_date_ddmmyyyy": "18/12/2023",
+  "country_of_origin": "Japan",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 122,
+  "cost_to_Amazone": 90
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf3"
+  },
+  "segment": "fresh",
+  "category": "fruits & vegetables",
+  "product_name": "Cucumber",
+  "description": "Cucumbers have a mild, refreshing taste and a high water content. They can help relieve dehydration and are pleasant to eat in hot weather. People eat cucumber as a savory food, but it is a fruit. It also features in some beauty products. Cucumber also contains a range of B vitamins, vitamin A, and antioxidants, including a type known as lignans. Cucumber also contains 19.9mg of calcium.",
+  "product_dimension_lwh": "2 x 2 x 12",
+  "product_weight_kg": 0.6,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "15/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 0.85,
+  "cost_to_Amazone": 0.83
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf4"
+  },
+  "segment": "fresh",
+  "category": "fruits & vegetables",
+  "product_name": "Cantaloupe",
+  "description": "With a vibrant orange hue and a tantalizing aroma, our Honey Kiss Cantaloupe promises a sensory journey that begins the moment you lay eyes on it. Each fruit is handpicked at the peak of ripeness, guaranteeing a succulent and flavorful treat that captures the essence of summer.",
+  "product_dimension_lwh": "16 x 13 x 17",
+  "product_weight_kg": 0.9,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "17/12/2023",
+  "country_of_origin": "Japan",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 2.79,
+  "cost_to_Amazone": 2.6
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf5"
+  },
+  "segment": "fresh",
+  "category": "fruits & vegetables",
+  "product_name": "Broccoli",
+  "description": "A rich green color and a dense texture, broccoli boasts a cruciferous charm that enhances both visual appeal and nutritional value. The flavor is earthy and slightly bitter, offering a pleasant balance when cooked to perfection. Broccoli is not only a culinary delight but also a nutrient powerhouse, delivering essential vitamins, minerals, and antioxidants.",
+  "product_dimension_lwh": "10 x 10 x 13",
+  "product_weight_kg": 0.5,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "15/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 1.15,
+  "cost_to_Amazone": 1
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf6"
+  },
+  "segment": "fresh",
+  "category": "fruits & vegetables",
+  "product_name": "Pineapple",
+  "description": "With its spiky crown and rough, hexagonal-patterned skin, is a tropical fruit known for its sweet and tangy flavor. The outer skin is typically a combination of green, yellow, and brown hues. Inside, the fruit features a juicy, fibrous, and golden-yellow flesh. The core is edible but is usually discarded. Pineapples are not only delicious but are also rich in vitamin C and manganese, making them a refreshing and nutritious treat.",
+  "product_dimension_lwh": "10 x 9 x 24",
+  "product_weight_kg": 1.1,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "15/12/2023",
+  "country_of_origin": "Indonesia",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 1.99,
+  "cost_to_Amazone": 1.67
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf7"
+  },
+  "segment": "fresh",
+  "category": "bakery",
+  "product_name": "Pain Au Chocolat",
+  "description": "A pastry that marries the delicate layers of flaky, buttery dough with the rich indulgence of high-quality chocolate.",
+  "product_dimension_lwh": "13 x 9 x 15",
+  "product_weight_kg": 0.4,
+  "product_quantity": 6,
+  "expiry_date_ddmmyyyy": "16/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 1.99,
+  "cost_to_Amazone": 1.23
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf8"
+  },
+  "segment": "fresh",
+  "category": "bakery",
+  "product_name": "Red Velvet Cake",
+  "description": "Our Red Velvet Cake is a masterpiece of culinary artistry, featuring layers of moist, vibrant red cake with a hint of cocoa, generously sandwiched between velvety cream cheese frosting. The exterior is often adorned with elegant swirls of frosting or topped with decorative elements, creating a visually stunning dessert. With a perfect balance of sweetness and subtle cocoa flavor, each slice offers a heavenly experience that captures the essence of this classic indulgence",
+  "product_dimension_lwh": "20 x 20 x 6",
+  "product_weight_kg": 1.7,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "16/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 8.49,
+  "cost_to_Amazone": 8.3
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bf9"
+  },
+  "segment": "fresh",
+  "category": "bakery",
+  "product_name": "Croissant",
+  "description": "Crafted with precision and passion, our croissants are a symphony of delicate layers, golden-brown flakiness, and a buttery aroma that fills the air. Each bite is a journey through the artistry of French pastry-making, delivering a perfect balance of crispiness on the outside and a soft, melt-in-your-mouth interior.",
+  "product_dimension_lwh": "14 x 5 x 6",
+  "product_weight_kg": 0.08,
+  "product_quantity": 1,
+  "expiry_date_ddmmyyyy": "16/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 1.5,
+  "cost_to_Amazone": 1
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bfa"
+  },
+  "segment": "fresh",
+  "category": "bakery",
+  "product_name": "Milk Brownies",
+  "description": "Treat yourself to the perfect union of chocolate and milk, and let the irresistible allure of our Milk Brownies become a staple in your indulgent repertoire",
+  "product_dimension_lwh": "15 x 13 x 11",
+  "product_weight_kg": 0.17,
+  "product_quantity": 14,
+  "expiry_date_ddmmyyyy": "16/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 2.39,
+  "cost_to_Amazone": 2
+},
+{
+  "_id": {
+    "$oid": "656ba1e3492bfd49374e0bfb"
+  },
+  "segment": "fresh",
+  "category": "bakery",
+  "product_name": "Christmas Cupcakes",
+  "description": "Treat yourself to the perfect union of chocolate and milk, and let the irresistible allure of our Milk Brownies become a staple in your indulgent repertoire",
+  "product_dimension_lwh": "20 x 20 x 7",
+  "product_weight_kg": 0.9,
+  "product_quantity": 9,
+  "expiry_date_ddmmyyyy": "16/12/2023",
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 10,
+  "cost_to_Amazone": 7
+},
+{
+  "_id": {
+    "$oid": "656db1269f73564819627c6e"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "NewJeans 1st EP 'New Jeans'",
+  "description": "Debut EP from the band NewJeans featuring a unique blend of genres.",
+  "artist_name": "NewJeans",
+  "number_of_tracks": 4,
+  "total_playing_time_hhmmss": "00:12:52",
+  "publisher": "ADOR Co. Ltd.",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.1,
+  "country_of_origin": "South Korea",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 14,
+  "cost_to_Amazone": 8.4
+},
+{
+  "_id": {
+    "$oid": "656db5859f73564819627c6f"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "Michael",
+  "description": "Musically, Michael contains a mixture of styles, including R&B, pop, rock, dance, hip hop, funk and gospel. Thematically, the album features 'inspirational, uplifting anthems' and 'melodic, sweetly sung ballads' alongside more pointed songs levelling criticism at the news media, Hollywood and society in general.",
+  "artist_name": "Michael Jackson",
+  "number_of_tracks": 7,
+  "total_playing_time_hhmmss": "00:27:23",
+  "publisher": "MJJ Productions",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.1,
+  "country_of_origin": "USA",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 25,
+  "cost_to_Amazone": 10
+},
+{
+  "_id": {
+    "$oid": "656db5a49f73564819627c70"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "Night Visions (Deluxe)",
+  "description": "Night Visions is the debut studio album by American pop rock band Imagine Dragons",
+  "artist_name": "Imagine Dragons",
+  "number_of_tracks": 20,
+  "total_playing_time_hhmmss": "01:17:36",
+  "publisher": "Interscope Records",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.75,
+  "country_of_origin": "USA",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 28,
+  "cost_to_Amazone": 14
+},
+{
+  "_id": {
+    "$oid": "656db6fb9f73564819627c71"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "Free Spirit",
+  "description": "Free Spirit is the second studio album by American singer Khalid, released on April 5, 2019, through RCA Records",
+  "artist_name": "Khalid",
+  "number_of_tracks": 17,
+  "total_playing_time_hhmmss": "00:57:22",
+  "publisher": "RCA Records",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.11,
+  "country_of_origin": "USA",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 20,
+  "cost_to_Amazone": 6.5
+},
+{
+  "_id": {
+    "$oid": "656db764170421f44bbe80b6"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Refrigerator",
+  "description": "Double-door refrigerator with freezer compartment",
+  "colour": "Arctic White",
+  "voltage": "120 volts",
+  "style": "French Style Refrigerator",
+  "product_dimension_lwh": "60.0 x 90.0 x 175.0",
+  "product_weight_kg": 90,
+  "country_of_origin": "Italy",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 500,
+  "cost_to_Amazone": 400
+},
+{
+  "_id": {
+    "$oid": "656db8dc170421f44bbe80b7"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Washing Machine",
+  "description": "Classic washing machine with extra-fast cleaning mode",
+  "colour": "Arctic White",
+  "voltage": "120 volts",
+  "style": "Front-loading",
+  "product_dimension_lwh": "70.0 x 60.0 x 85.0",
+  "product_weight_kg": 75,
+  "country_of_origin": "China",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 250,
+  "cost_to_Amazone": 200
+},
+{
+  "_id": {
+    "$oid": "656db903170421f44bbe80b8"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Microwave",
+  "description": "Standard 20L Microwave",
+  "colour": "Steel",
+  "voltage": "120 volts",
+  "style": "Combination",
+  "product_dimension_lwh": "42.0 x 55.0 x 32.0",
+  "product_weight_kg": 18,
+  "country_of_origin": "China",
+  "customer_rating_score": 3,
+  "standard_price_to_customers": 150,
+  "cost_to_Amazone": 75
+},
+{
+  "_id": {
+    "$oid": "656db9189f73564819627c72"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "Midnight Memories (Deluxe)",
+  "description": "Midnight Memories is the third studio album by English-Irish boy band One Direction, released on 25 November 2013 by Columbia Records, Syco Music and Sony Music. It was described as having a 'slightly rockier tone' than their previous efforts.",
+  "artist_name": "One Direction",
+  "number_of_tracks": 18,
+  "total_playing_time_hhmmss": "00:59:31",
+  "publisher": "Simco Limited",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.73,
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 30,
+  "cost_to_Amazone": 12
+},
+{
+  "_id": {
+    "$oid": "656db915170421f44bbe80b9"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Toaster",
+  "description": "A stylish 2 slice toaster that adds a unique crust to your daily breakfast",
+  "colour": "Carbon Black",
+  "voltage": "120 volts",
+  "style": "2-slice",
+  "product_dimension_lwh": "25.0 x 16.0 x 20.0",
+  "product_weight_kg": 0.9,
+  "country_of_origin": "China",
+  "customer_rating_score": 2,
+  "standard_price_to_customers": 20,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "656dba1c170421f44bbe80ba"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Blender",
+  "description": "A stylish blender with 15000RPM",
+  "colour": "Ash Grey",
+  "voltage": "220 volts",
+  "style": "Top-loading",
+  "product_dimension_lwh": "20.0 x 20.0 x 45.0",
+  "product_weight_kg": 0.9,
+  "country_of_origin": "China",
+  "customer_rating_score": 2,
+  "standard_price_to_customers": 30,
+  "cost_to_Amazone": 14
+},
+{
+  "_id": {
+    "$oid": "656dba319f73564819627c73"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "Born Pink",
+  "description": "The songs incorporate eclectic styles ranging from disco and bubblegum pop to pop-rock and stadium rock. Lyrically, the album discusses themes of love, self-confidence, self-encouragement, dealing with fame and detractors, and more.",
+  "artist_name": "BLACKPINK",
+  "number_of_tracks": 8,
+  "total_playing_time_hhmmss": "00:24:34",
+  "publisher": "YG Entertainment",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.87,
+  "country_of_origin": "South Korea",
+  "customer_rating_score": 3,
+  "standard_price_to_customers": 14,
+  "cost_to_Amazone": 8
+},
+{
+  "_id": {
+    "$oid": "656dba37170421f44bbe80bb"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Dishwasher",
+  "description": "Energy-efficient dishwasher with advanced drying technology",
+  "colour": "Silver",
+  "voltage": "120 volts",
+  "style": "Built-in",
+  "product_dimension_lwh": "60.0 x 60.0 x 85.0",
+  "product_weight_kg": 40,
+  "country_of_origin": "Germany",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 600,
+  "cost_to_Amazone": 480
+},
+{
+  "_id": {
+    "$oid": "656dba4c170421f44bbe80bc"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Vacuum Cleaner",
+  "description": "High-suction bagless vacuum cleaner for all surfaces",
+  "colour": "Midnight Blue",
+  "voltage": "120 volts",
+  "style": "Upright",
+  "product_dimension_lwh": "30.0 x 30.0 x 120.0",
+  "product_weight_kg": 5,
+  "country_of_origin": "UK",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 200,
+  "cost_to_Amazone": 160
+},
+{
+  "_id": {
+    "$oid": "656dba8a170421f44bbe80bd"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Television",
+  "description": "50-inch 4K Ultra HD Smart LED TV with HDR",
+  "colour": "Black",
+  "voltage": "120 volts",
+  "style": "Wall Mountable",
+  "product_dimension_lwh": "112.0 x 8.0 x 65.0",
+  "product_weight_kg": 15,
+  "country_of_origin": "South Korea",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 1000,
+  "cost_to_Amazone": 800
+},
+{
+  "_id": {
+    "$oid": "656dbaa9170421f44bbe80be"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Air Conditioning",
+  "description": "Split air conditioner with eco-friendly technology",
+  "colour": "White",
+  "voltage": "220 volts",
+  "style": "Split System",
+  "product_dimension_lwh": "90.0 x 30.0 x 60.0",
+  "product_weight_kg": 30,
+  "country_of_origin": "Japan",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 700,
+  "cost_to_Amazone": 560
+},
+{
+  "_id": {
+    "$oid": "656dbab5170421f44bbe80bf"
+  },
+  "segment": "others",
+  "category": "home appliance",
+  "product_name": "Coffee Machine",
+  "description": "Espresso machine with integrated milk frother",
+  "colour": "Espresso Brown",
+  "voltage": "120 volts",
+  "style": "Countertop",
+  "product_dimension_lwh": "35.0 x 20.0 x 40.0",
+  "product_weight_kg": 4,
+  "country_of_origin": "Italy",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 450,
+  "cost_to_Amazone": 360
+},
+{
+  "_id": {
+    "$oid": "656dbad79f73564819627c74"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "For All The Dogs",
+  "description": "'For All the Dogs' is an album full of caustic songs about heartbreak, which have added tension now that Drake is a world-beating pop star — there is incredulity cutting through the sadness.",
+  "artist_name": "Drake",
+  "number_of_tracks": 23,
+  "total_playing_time_hhmmss": "01:24:08",
+  "publisher": "OVO, Republic Records",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.9,
+  "country_of_origin": "Canada",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 32,
+  "cost_to_Amazone": 15
+},
+{
+  "_id": {
+    "$oid": "656dbc0c9f73564819627c75"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "On a Spaceship",
+  "description": "'On a Spaceship', a 20-track album is Burna Boy's second studio work.",
+  "artist_name": "Burna Boy",
+  "number_of_tracks": 20,
+  "total_playing_time_hhmmss": "01:09:24",
+  "publisher": "Spaceship Entertainment",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.2,
+  "country_of_origin": "Nigeria",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 17,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "656dbebb9f73564819627c76"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "in loving memory",
+  "description": "in loving memory is a pop-punk collaboration album between pop singer blackbear and blink-182 drummer Travis Barker.",
+  "artist_name": "blackbear",
+  "number_of_tracks": 12,
+  "total_playing_time_hhmmss": "00:38:20",
+  "publisher": "Alamo Records",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.13,
+  "country_of_origin": "USA",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 13,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "656dbf9a9f73564819627c7c"
+  },
+  "segment": "others",
+  "category": "cd",
+  "product_name": "Parachute",
+  "description": "The album finds Petit Biscuit coming into his own as an introspective lyricist with explorations of love, war, and death alongside his self-assured step into the vocal spotlight.",
+  "artist_name": "Petit Biscuit",
+  "number_of_tracks": 9,
+  "total_playing_time_hhmmss": "00:29:51",
+  "publisher": "Ecurie",
+  "product_dimension_lwh": "14 x 13 x 1",
+  "product_weight_kg": 0.09,
+  "country_of_origin": "France",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 10,
+  "cost_to_Amazone": 3
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61da"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "To Kill a Mockingbird",
+  "description": "A historical fiction novel about a young girl's coming-of-age story and a narrative about the roots and effects of racism and prejudice",
+  "author_name": "Harper Lee",
+  "publisher": "HarperCollins Publishers",
+  "year_of_publication": "1960",
+  "isbn": "9781784752637",
+  "product_dimension_lwh": "17.8 x 10.8 x 1.9",
+  "product_weight_kg": 0.35,
+  "country_of_origin": "USA",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 15,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61db"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "1984",
+  "description": "A dystopian novel depicting life under a totalitarian regime, exploring themes of surveillance, propaganda, and individuality.",
+  "author_name": "George Orwell",
+  "publisher": "Penguin Books",
+  "year_of_publication": "1949",
+  "isbn": "9780141036144",
+  "product_dimension_lwh": "20.3 x 13.3 x 2.5",
+  "product_weight_kg": 0.4,
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 15,
+  "cost_to_Amazone": 8.5
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61dc"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "Pride and Prejudice",
+  "description": "A romantic novel about manners, upbringing, morality, and marriage in early 19th-century England.",
+  "author_name": "Jane Austen",
+  "publisher": "Penguin Classics",
+  "year_of_publication": "1813",
+  "isbn": "9780141439518",
+  "product_dimension_lwh": "19 x 12.7 x 3",
+  "product_weight_kg": 0.35,
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 13,
+  "cost_to_Amazone": 7.5
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61dd"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "The Great Gatsby",
+  "description": "A novel set in the Jazz Age, exploring themes of wealth, class, and the American Dream.",
+  "author_name": "F. Scott Fitzgerald",
+  "publisher": "Scribner",
+  "year_of_publication": "1925",
+  "isbn": "9780743273565",
+  "product_dimension_lwh": "20 x 13 x 1.5",
+  "product_weight_kg": 0.25,
+  "country_of_origin": "USA",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 14,
+  "cost_to_Amazone": 8.4
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61de"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "Harry Potter and the Philosopher's Stone",
+  "description": "The first book in the Harry Potter series, introducing the young wizard and his adventures at Hogwarts.",
+  "author_name": "J.K. Rowling",
+  "publisher": "Bloomsbury Publishing",
+  "year_of_publication": "1997",
+  "isbn": "9780747532743",
+  "product_dimension_lwh": "19.8 x 12.9 x 2.2",
+  "product_weight_kg": 0.3,
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 20,
+  "cost_to_Amazone": 12
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61df"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "The Catcher in the Rye",
+  "description": "A novel by about teenage alienation and loss of innocence, narrated by the iconoclastic Holden Caulfield.",
+  "author_name": "J.D. Salinger",
+  "publisher": "Little, Brown and Company",
+  "year_of_publication": "1951",
+  "isbn": "9780316769488",
+  "product_dimension_lwh": "18.1 x 11.7 x 1.8",
+  "product_weight_kg": 0.27,
+  "country_of_origin": "USA",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 16,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61e0"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "The Lord of the Rings",
+  "description": "an epic fantasy novel by J.R.R. Tolkien, following the quest to destroy the One Ring and bringing together themes of friendship and struggle.",
+  "author_name": "J.R.R. Tolkien",
+  "publisher": "HarperCollins",
+  "year_of_publication": "1954",
+  "isbn": "9780261102354",
+  "product_dimension_lwh": "22.9 x 15.2 x 5.1",
+  "product_weight_kg": 0.8,
+  "country_of_origin": "United Kingdom",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 22,
+  "cost_to_Amazone": 13.4
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61e1"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "Animal Farm",
+  "description": "a satirical novella critiquing totalitarianism, portraying a rebellion led by farm animals against their human farmer.",
+  "author_name": "George Orwell",
+  "publisher": "Penguin Books",
+  "year_of_publication": "1945",
+  "isbn": "9780141036137",
+  "product_dimension (l*w*h)": "18 x 11 x 1.2",
+  "product_weight (kg)": 0.2,
+  "country_of_origin": "UK",
+  "customer_rating_score": 4,
+  "standard_price_to_customers": 15,
+  "cost_to_Amazone": 9
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61e2"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "Brave New World",
+  "description": "a dystopian novel envisioning a technologically advanced future society marked by societal control and human manipulation.",
+  "author_name": "Aldous Huxley",
+  "publisher": "Chatto & Windus",
+  "year_of_publication": "1932",
+  "isbn": "9780099518471",
+  "product_dimension (l*w*h)": "19.8 x 12.9 x 2.1",
+  "product_weight (kg)": 0.3,
+  "country_of_origin": "UK",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 18,
+  "cost_to_Amazone": 10.8
+},
+{
+  "_id": {
+    "$oid": "65764f1fd413d55feaad61e3"
+  },
+  "segment": "others",
+  "category": "book",
+  "product_name": "The Hobbit",
+  "description": "a fantasy novel about the journey of Bilbo Baggins, featuring a richly imagined world with elves, dwarves, and a quest for treasure.",
+  "author_name": "J.R.R. Tolkien",
+  "publisher": "George Allen & Unwin",
+  "year_of_publication": "1937",
+  "isbn": "9780261102217",
+  "product_dimension (l*w*h)": "17.8 x 11.1 x 2.2",
+  "product_weight (kg)": 0.25,
+  "country_of_origin": "UK",
+  "customer_rating_score": 5,
+  "standard_price_to_customers": 20,
+  "cost_to_Amazone": 12
+}]

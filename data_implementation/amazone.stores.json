@@ -1,0 +1,451 @@
+[{
+  "_id": {
+    "$oid": "656ed0a6c42f56e05ed7b475"
+  },
+  "store_name": "Morrisons Portland Street",
+  "store_address": {
+    "building_number": "66",
+    "street": "Piccadilly",
+    "city": "Manchester",
+    "postcode": "M2 9AA",
+    "country": "UK"
+  },
+  "location": [
+    53.477723,
+    -2.231328
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656ed07fc42f56e05ed7b473"
+  },
+  "store_name": "Morrisons King Street",
+  "store_address": {
+    "building_number": "20",
+    "street": "King Street",
+    "city": "Manchester",
+    "postcode": "M4 8AA",
+    "country": "UK"
+  },
+  "location": [
+    53.484719,
+    -2.233222
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656ecff0c42f56e05ed7b46d"
+  },
+  "store_name": "Morrisons King Street",
+  "store_address": {
+    "building_number": "72",
+    "street": "Piccadilly",
+    "city": "Manchester",
+    "postcode": "M4 2AA",
+    "country": "UK"
+  },
+  "location": [
+    53.488296,
+    -2.24107
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5276"
+      },
+      "product_name": "Orange Juice"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656ed0f0c42f56e05ed7b479"
+  },
+  "store_name": "Morrisons Piccadilly",
+  "store_address": {
+    "building_number": "10",
+    "street": "Portland Street",
+    "city": "Manchester",
+    "postcode": "M4 1AA",
+    "country": "UK"
+  },
+  "location": [
+    53.470538,
+    -2.244934
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5276"
+      },
+      "product_name": "Orange Juice"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656ed05dc42f56e05ed7b471"
+  },
+  "store_name": "Morrisons Deansgate",
+  "store_address": {
+    "building_number": "91",
+    "street": "Portland Street",
+    "city": "Manchester",
+    "postcode": "M3 2AA",
+    "country": "UK"
+  },
+  "location": [
+    53.485338,
+    -2.24194
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656ed032c42f56e05ed7b46f"
+  },
+  "store_name": "Morrisons Portland Street",
+  "store_address": {
+    "building_number": "40",
+    "street": "Deansgate",
+    "city": "Manchester",
+    "postcode": "M1 6AA",
+    "country": "UK"
+  },
+  "location": [
+    53.472729,
+    -2.245752
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5276"
+      },
+      "product_name": "Orange Juice"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656ed0c9c42f56e05ed7b477"
+  },
+  "store_name": "Morrisons Oxford Road",
+  "store_address": {
+    "building_number": "89",
+    "street": "Portland Street",
+    "city": "Manchester",
+    "postcode": "M4 7AA",
+    "country": "UK"
+  },
+  "location": [
+    53.482176,
+    -2.240856
+  ],
+  "grocery_items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer"
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe"
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade"
+    }
+  ]
+}]

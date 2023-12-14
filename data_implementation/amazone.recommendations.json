@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "656f190e31202010b23ade40"
+  },
+  "customer_id": 1,
+  "recommended_products": [
+    {
+      "_id": "656db6fb9f73564819627c71",
+      "name": "Free Spirit",
+      "rating": 4
+    },
+    {
+      "_id": "65688c40b62ecd780f8b526f",
+      "name": "Sony Xperia 10",
+      "rating": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f190f31202010b23ae0d3"
+  },
+  "customer_id": 2,
+  "recommended_products": [
+    {
+      "_id": "656db9189f73564819627c72",
+      "name": "Midnight Memories (Deluxe)",
+      "rating": 4.666666666666667
+    },
+    {
+      "_id": "65688c40b62ecd780f8b526b",
+      "name": "Samsung Galaxy S30",
+      "rating": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191131202010b23ae35b"
+  },
+  "customer_id": 3,
+  "recommended_products": [
+    {
+      "_id": "656dbad79f73564819627c74",
+      "name": "For All The Dogs",
+      "rating": 4.25
+    },
+    {
+      "_id": "656dbebb9f73564819627c76",
+      "name": "in loving memory",
+      "rating": 4.333333333333333
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191231202010b23ae5ea"
+  },
+  "customer_id": 4,
+  "recommended_products": [
+    {
+      "_id": "656dba37170421f44bbe80bb",
+      "name": "Dishwasher",
+      "rating": 4.25
+    },
+    {
+      "_id": "65688ffab62ecd780f8b527a",
+      "name": "Apple Cider",
+      "rating": 3.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191331202010b23ae81e"
+  },
+  "customer_id": 5,
+  "recommended_products": [
+    {
+      "_id": "656db6fb9f73564819627c71",
+      "name": "Free Spirit",
+      "rating": 4
+    },
+    {
+      "_id": "65688c40b62ecd780f8b526f",
+      "name": "Sony Xperia 10",
+      "rating": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191431202010b23aea69"
+  },
+  "customer_id": 6,
+  "recommended_products": [
+    {
+      "_id": "656db9189f73564819627c72",
+      "name": "Midnight Memories (Deluxe)",
+      "rating": 4.666666666666667
+    },
+    {
+      "_id": "656dbc0c9f73564819627c75",
+      "name": "On a Spaceship",
+      "rating": 3.75
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191631202010b23aec7c"
+  },
+  "customer_id": 7,
+  "recommended_products": [
+    {
+      "_id": "656dbc0c9f73564819627c75",
+      "name": "On a Spaceship",
+      "rating": 3.75
+    },
+    {
+      "_id": "656dbad79f73564819627c74",
+      "name": "For All The Dogs",
+      "rating": 4.25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191731202010b23aef12"
+  },
+  "customer_id": 8,
+  "recommended_products": [
+    {
+      "_id": "656dbebb9f73564819627c76",
+      "name": "in loving memory",
+      "rating": 4.333333333333333
+    },
+    {
+      "_id": "656db9189f73564819627c72",
+      "name": "Midnight Memories (Deluxe)",
+      "rating": 4.666666666666667
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191831202010b23af182"
+  },
+  "customer_id": 9,
+  "recommended_products": [
+    {
+      "_id": "656dba37170421f44bbe80bb",
+      "name": "Dishwasher",
+      "rating": 4.25
+    },
+    {
+      "_id": "65688c40b62ecd780f8b526f",
+      "name": "Sony Xperia 10",
+      "rating": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191a31202010b23af3b3"
+  },
+  "customer_id": 10,
+  "recommended_products": [
+    {
+      "_id": "656db6fb9f73564819627c71",
+      "name": "Free Spirit",
+      "rating": 4
+    },
+    {
+      "_id": "65688ffab62ecd780f8b527a",
+      "name": "Apple Cider",
+      "rating": 3.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191c31202010b23af682"
+  },
+  "customer_id": 11,
+  "recommended_products": [
+    {
+      "_id": "656dba37170421f44bbe80bb",
+      "name": "Dishwasher",
+      "rating": 4.25
+    },
+    {
+      "_id": "656dbad79f73564819627c74",
+      "name": "For All The Dogs",
+      "rating": 4.25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191d31202010b23af919"
+  },
+  "customer_id": 12,
+  "recommended_products": [
+    {
+      "_id": "65688ffab62ecd780f8b5278",
+      "name": "Coconut Water",
+      "rating": 3.75
+    },
+    {
+      "_id": "656dbebb9f73564819627c76",
+      "name": "in loving memory",
+      "rating": 4.333333333333333
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f191e31202010b23afb27"
+  },
+  "customer_id": 13,
+  "recommended_products": [
+    {
+      "_id": "65688ffab62ecd780f8b5278",
+      "name": "Coconut Water",
+      "rating": 3.75
+    },
+    {
+      "_id": "656db6fb9f73564819627c71",
+      "name": "Free Spirit",
+      "rating": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192031202010b23afd3e"
+  },
+  "customer_id": 14,
+  "recommended_products": [
+    {
+      "_id": "656dbad79f73564819627c74",
+      "name": "For All The Dogs",
+      "rating": 4.25
+    },
+    {
+      "_id": "65688c40b62ecd780f8b526b",
+      "name": "Samsung Galaxy S30",
+      "rating": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192131202010b23aff41"
+  },
+  "customer_id": 15,
+  "recommended_products": [
+    {
+      "_id": "656dbebb9f73564819627c76",
+      "name": "in loving memory",
+      "rating": 4.333333333333333
+    },
+    {
+      "_id": "65688ffab62ecd780f8b527a",
+      "name": "Apple Cider",
+      "rating": 3.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192231202010b23b016a"
+  },
+  "customer_id": 16,
+  "recommended_products": [
+    {
+      "_id": "656dbebb9f73564819627c76",
+      "name": "in loving memory",
+      "rating": 4.333333333333333
+    },
+    {
+      "_id": "65688ffab62ecd780f8b527a",
+      "name": "Apple Cider",
+      "rating": 3.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192331202010b23b0377"
+  },
+  "customer_id": 17,
+  "recommended_products": [
+    {
+      "_id": "656db9189f73564819627c72",
+      "name": "Midnight Memories (Deluxe)",
+      "rating": 4.666666666666667
+    },
+    {
+      "_id": "65688ffab62ecd780f8b5278",
+      "name": "Coconut Water",
+      "rating": 3.75
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192431202010b23b057c"
+  },
+  "customer_id": 18,
+  "recommended_products": [
+    {
+      "_id": "656dbad79f73564819627c74",
+      "name": "For All The Dogs",
+      "rating": 4.25
+    },
+    {
+      "_id": "656dba37170421f44bbe80bb",
+      "name": "Dishwasher",
+      "rating": 4.25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192531202010b23b07e1"
+  },
+  "customer_id": 19,
+  "recommended_products": [
+    {
+      "_id": "656dba37170421f44bbe80bb",
+      "name": "Dishwasher",
+      "rating": 4.25
+    },
+    {
+      "_id": "656db9189f73564819627c72",
+      "name": "Midnight Memories (Deluxe)",
+      "rating": 4.666666666666667
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656f192731202010b23b0b54"
+  },
+  "customer_id": 20,
+  "recommended_products": [
+    {
+      "_id": "656dba37170421f44bbe80bb",
+      "name": "Dishwasher",
+      "rating": 4.25
+    },
+    {
+      "_id": "65688c40b62ecd780f8b526f",
+      "name": "Sony Xperia 10",
+      "rating": 4
+    }
+  ]
+}]

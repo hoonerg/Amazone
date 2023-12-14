@@ -1,0 +1,4004 @@
+[{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d744"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e1"
+      },
+      "product_name": "Animal Farm",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5273"
+      },
+      "product_name": "Asus ROG Phone 5",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656dbaa9170421f44bbe80be"
+      },
+      "product_name": "Air Conditioning",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 7115,
+  "customer_id": 1,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-12T16:45:21.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d745"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 54.24,
+  "customer_id": 1,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-13T02:42:59.538Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d746"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5272"
+      },
+      "product_name": "Huawei P40 Pro",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526e"
+      },
+      "product_name": "Xiaomi Mi 12",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61df"
+      },
+      "product_name": "The Catcher in the Rye",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db764170421f44bbe80b6"
+      },
+      "product_name": "Refrigerator",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 7914,
+  "customer_id": 1,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-05T11:22:45.924Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d747"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade",
+      "quantity": 4
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 145.95,
+  "customer_id": 1,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-01T22:11:01.403Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d748"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5276"
+      },
+      "product_name": "Orange Juice",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 80.53,
+  "customer_id": 1,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-22T13:13:41.389Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d749"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 66.31,
+  "customer_id": 2,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-09T03:44:09.789Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d74a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 113.15,
+  "customer_id": 2,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-03T16:43:16.386Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d74b"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db915170421f44bbe80b9"
+      },
+      "product_name": "Toaster",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656dbf9a9f73564819627c7c"
+      },
+      "product_name": "Parachute",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 120,
+  "customer_id": 2,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-16T06:06:02.487Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d74c"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db5a49f73564819627c70"
+      },
+      "product_name": "Night Visions (Deluxe)",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db764170421f44bbe80b6"
+      },
+      "product_name": "Refrigerator",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e2"
+      },
+      "product_name": "Brave New World",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526a"
+      },
+      "product_name": "Apple iPhone 15",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2194,
+  "customer_id": 2,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-03T01:27:25.259Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d74d"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 74.53999999999999,
+  "customer_id": 2,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-03T17:22:52.513Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685cce3df229b6b2d74e"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db903170421f44bbe80b8"
+      },
+      "product_name": "Microwave",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dbebb9f73564819627c76"
+      },
+      "product_name": "in loving memory",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e2"
+      },
+      "product_name": "Brave New World",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db915170421f44bbe80b9"
+      },
+      "product_name": "Toaster",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526d"
+      },
+      "product_name": "OnePlus 11",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2921,
+  "customer_id": 3,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-04T09:16:55.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d74f"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 118.15,
+  "customer_id": 3,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-07T22:44:45.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d750"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 69.6,
+  "customer_id": 3,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-06T12:39:04.386Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d751"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61dd"
+      },
+      "product_name": "The Great Gatsby",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5273"
+      },
+      "product_name": "Asus ROG Phone 5",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e0"
+      },
+      "product_name": "The Lord of the Rings",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526d"
+      },
+      "product_name": "OnePlus 11",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 5858,
+  "customer_id": 3,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-23T06:52:44.327Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d752"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e3"
+      },
+      "product_name": "The Hobbit",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656db6fb9f73564819627c71"
+      },
+      "product_name": "Free Spirit",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3680,
+  "customer_id": 3,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-08T08:56:52.075Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d753"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba319f73564819627c73"
+      },
+      "product_name": "Born Pink",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5272"
+      },
+      "product_name": "Huawei P40 Pro",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dba37170421f44bbe80bb"
+      },
+      "product_name": "Dishwasher",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5273"
+      },
+      "product_name": "Asus ROG Phone 5",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 6714,
+  "customer_id": 4,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-13T23:11:50.980Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d754"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db6fb9f73564819627c71"
+      },
+      "product_name": "Free Spirit",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61db"
+      },
+      "product_name": "1984",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2435,
+  "customer_id": 4,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-04T21:38:04.357Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d755"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 425,
+  "customer_id": 4,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-28T10:46:44.231Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d756"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 4
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 721.92,
+  "customer_id": 4,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-30T01:47:33.872Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d757"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61dc"
+      },
+      "product_name": "Pride and Prejudice",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 1865,
+  "customer_id": 4,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-13T01:54:08.111Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d758"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656dba319f73564819627c73"
+      },
+      "product_name": "Born Pink",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61db"
+      },
+      "product_name": "1984",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656dba8a170421f44bbe80bd"
+      },
+      "product_name": "Television",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3788,
+  "customer_id": 5,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-05T04:53:48.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d759"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 102.3,
+  "customer_id": 5,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-21T05:23:44.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d75a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 3
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 57.4,
+  "customer_id": 5,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-22T14:48:53.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d75b"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbaa9170421f44bbe80be"
+      },
+      "product_name": "Air Conditioning",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2817,
+  "customer_id": 5,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-04T01:55:36.910Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d75c"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba1c170421f44bbe80ba"
+      },
+      "product_name": "Blender",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5271"
+      },
+      "product_name": "LG Wing",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e3"
+      },
+      "product_name": "The Hobbit",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656db6fb9f73564819627c71"
+      },
+      "product_name": "Free Spirit",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e0"
+      },
+      "product_name": "The Lord of the Rings",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2253,
+  "customer_id": 5,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-19T06:55:10.193Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d75d"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 81.7,
+  "customer_id": 6,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-29T03:34:22.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d75e"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 13.95,
+  "customer_id": 6,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-02T23:08:22.307Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d75f"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbaa9170421f44bbe80be"
+      },
+      "product_name": "Air Conditioning",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dbad79f73564819627c74"
+      },
+      "product_name": "For All The Dogs",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e1"
+      },
+      "product_name": "Animal Farm",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 4362,
+  "customer_id": 6,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-24T03:45:04.884Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d760"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656dba8a170421f44bbe80bd"
+      },
+      "product_name": "Television",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5270"
+      },
+      "product_name": "Motorola Edge",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5271"
+      },
+      "product_name": "LG Wing",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 5719,
+  "customer_id": 6,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-01T09:05:05.032Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d761"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 4.78,
+  "customer_id": 6,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-08T17:18:38.659Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d762"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba37170421f44bbe80bb"
+      },
+      "product_name": "Dishwasher",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3051,
+  "customer_id": 7,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-16T14:13:37.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d763"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526e"
+      },
+      "product_name": "Xiaomi Mi 12",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dba8a170421f44bbe80bd"
+      },
+      "product_name": "Television",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5273"
+      },
+      "product_name": "Asus ROG Phone 5",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dba1c170421f44bbe80ba"
+      },
+      "product_name": "Blender",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61db"
+      },
+      "product_name": "1984",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 9760,
+  "customer_id": 7,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-08T17:33:52.457Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d764"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656dba319f73564819627c73"
+      },
+      "product_name": "Born Pink",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dba37170421f44bbe80bb"
+      },
+      "product_name": "Dishwasher",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dbaa9170421f44bbe80be"
+      },
+      "product_name": "Air Conditioning",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61db"
+      },
+      "product_name": "1984",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e0"
+      },
+      "product_name": "The Lord of the Rings",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 7537,
+  "customer_id": 7,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-15T12:25:42.404Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d765"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 4
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 38.47,
+  "customer_id": 7,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-07T04:20:31.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d766"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dba8a170421f44bbe80bd"
+      },
+      "product_name": "Television",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5273"
+      },
+      "product_name": "Asus ROG Phone 5",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e2"
+      },
+      "product_name": "Brave New World",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 9639,
+  "customer_id": 7,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-20T13:37:44.372Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685dce3df229b6b2d767"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5270"
+      },
+      "product_name": "Motorola Edge",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e3"
+      },
+      "product_name": "The Hobbit",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2710,
+  "customer_id": 8,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-10T13:22:01.645Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d768"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 177.95,
+  "customer_id": 8,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-22T23:34:34.563Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d769"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 14,
+  "customer_id": 8,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-02T03:18:04.706Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d76a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 37.99,
+  "customer_id": 8,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-13T09:58:26.669Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d76b"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 4.78,
+  "customer_id": 8,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-01T11:17:27.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d76c"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656dbebb9f73564819627c76"
+      },
+      "product_name": "in loving memory",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 1852,
+  "customer_id": 9,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-24T09:56:23.749Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d76d"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 52.010000000000005,
+  "customer_id": 9,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-13T22:26:04.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d76e"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656dba1c170421f44bbe80ba"
+      },
+      "product_name": "Blender",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5271"
+      },
+      "product_name": "LG Wing",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526f"
+      },
+      "product_name": "Sony Xperia 10",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5270"
+      },
+      "product_name": "Motorola Edge",
+      "quantity": 5
+    }
+  ],
+  "segment": "others",
+  "total_amount": 10836,
+  "customer_id": 9,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-27T21:00:49.329Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d76f"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dbad79f73564819627c74"
+      },
+      "product_name": "For All The Dogs",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 81,
+  "customer_id": 9,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-04T16:29:39.122Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d770"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db8dc170421f44bbe80b7"
+      },
+      "product_name": "Washing Machine",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656db6fb9f73564819627c71"
+      },
+      "product_name": "Free Spirit",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 5
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3350,
+  "customer_id": 9,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-06T07:00:39.153Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d771"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e1"
+      },
+      "product_name": "Animal Farm",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656db903170421f44bbe80b8"
+      },
+      "product_name": "Microwave",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 525,
+  "customer_id": 10,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-13T04:34:55.954Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d772"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 42,
+  "customer_id": 10,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-05T16:09:00.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d773"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 3
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 59.99,
+  "customer_id": 10,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-26T03:05:38.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d774"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61dc"
+      },
+      "product_name": "Pride and Prejudice",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526a"
+      },
+      "product_name": "Apple iPhone 15",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61df"
+      },
+      "product_name": "The Catcher in the Rye",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2933,
+  "customer_id": 10,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-05T19:12:52.710Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d775"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba1c170421f44bbe80ba"
+      },
+      "product_name": "Blender",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db764170421f44bbe80b6"
+      },
+      "product_name": "Refrigerator",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dbad79f73564819627c74"
+      },
+      "product_name": "For All The Dogs",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db9189f73564819627c72"
+      },
+      "product_name": "Midnight Memories (Deluxe)",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61df"
+      },
+      "product_name": "The Catcher in the Rye",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2730,
+  "customer_id": 10,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-12T13:13:36.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d776"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5272"
+      },
+      "product_name": "Huawei P40 Pro",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526d"
+      },
+      "product_name": "OnePlus 11",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3050,
+  "customer_id": 11,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-09T05:28:23.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d777"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 57.5,
+  "customer_id": 11,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-30T11:52:32.788Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d778"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526a"
+      },
+      "product_name": "Apple iPhone 15",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db915170421f44bbe80b9"
+      },
+      "product_name": "Toaster",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 4076,
+  "customer_id": 11,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-14T06:10:06.021Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d779"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db915170421f44bbe80b9"
+      },
+      "product_name": "Toaster",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526b"
+      },
+      "product_name": "Samsung Galaxy S30",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e3"
+      },
+      "product_name": "The Hobbit",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61db"
+      },
+      "product_name": "1984",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3305,
+  "customer_id": 11,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-07T11:01:05.564Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d77a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 675,
+  "customer_id": 11,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-06T02:24:01.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d77b"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba37170421f44bbe80bb"
+      },
+      "product_name": "Dishwasher",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db9189f73564819627c72"
+      },
+      "product_name": "Midnight Memories (Deluxe)",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 720,
+  "customer_id": 12,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-15T13:36:35.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d77c"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5276"
+      },
+      "product_name": "Orange Juice",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 259.95,
+  "customer_id": 12,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-07T17:26:35.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d77d"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 3
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 12.46,
+  "customer_id": 12,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-13T04:54:25.619Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d77e"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 120.31,
+  "customer_id": 12,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-21T17:06:04.968Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d77f"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e1"
+      },
+      "product_name": "Animal Farm",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5272"
+      },
+      "product_name": "Huawei P40 Pro",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656db5a49f73564819627c70"
+      },
+      "product_name": "Night Visions (Deluxe)",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 5
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2958,
+  "customer_id": 12,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-11T11:48:27.656Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d780"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 92.46000000000001,
+  "customer_id": 13,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-06T08:21:30.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d781"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 71.97,
+  "customer_id": 13,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-26T05:56:03.575Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d782"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 19.73,
+  "customer_id": 13,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-11T15:50:27.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d783"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 80.95,
+  "customer_id": 13,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-29T23:42:25.966Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d784"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf8"
+      },
+      "product_name": "Red Velvet Cake",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527c"
+      },
+      "product_name": "Lemonade",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 92.73,
+  "customer_id": 13,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-06T00:21:52.278Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d785"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba1c170421f44bbe80ba"
+      },
+      "product_name": "Blender",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3350,
+  "customer_id": 14,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-09T03:31:06.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d786"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbad79f73564819627c74"
+      },
+      "product_name": "For All The Dogs",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dba8a170421f44bbe80bd"
+      },
+      "product_name": "Television",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db9189f73564819627c72"
+      },
+      "product_name": "Midnight Memories (Deluxe)",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e2"
+      },
+      "product_name": "Brave New World",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526b"
+      },
+      "product_name": "Samsung Galaxy S30",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 5840,
+  "customer_id": 14,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-01T12:23:55.004Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685ece3df229b6b2d787"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 2.79,
+  "customer_id": 14,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-11T08:19:16.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d788"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbaa9170421f44bbe80be"
+      },
+      "product_name": "Air Conditioning",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5270"
+      },
+      "product_name": "Motorola Edge",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5272"
+      },
+      "product_name": "Huawei P40 Pro",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 7956,
+  "customer_id": 14,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-20T20:03:36.312Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d789"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5276"
+      },
+      "product_name": "Orange Juice",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 4
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 309.99,
+  "customer_id": 14,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-09T02:52:27.653Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d78a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526a"
+      },
+      "product_name": "Apple iPhone 15",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dba319f73564819627c73"
+      },
+      "product_name": "Born Pink",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dbf9a9f73564819627c7c"
+      },
+      "product_name": "Parachute",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3049,
+  "customer_id": 15,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-20T12:18:36.360Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d78b"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 4
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 488,
+  "customer_id": 15,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-16T09:41:43.204Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d78c"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5271"
+      },
+      "product_name": "LG Wing",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 1998,
+  "customer_id": 15,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-10T00:21:44.774Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d78d"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526b"
+      },
+      "product_name": "Samsung Galaxy S30",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526e"
+      },
+      "product_name": "Xiaomi Mi 12",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2300,
+  "customer_id": 15,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-24T19:29:30.898Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d78e"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db6fb9f73564819627c71"
+      },
+      "product_name": "Free Spirit",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 40,
+  "customer_id": 15,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-28T22:40:17.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d78f"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 3
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 4.5,
+  "customer_id": 16,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-01T06:44:11.143Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d790"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5275"
+      },
+      "product_name": "Semi-skimmed Milk",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf3"
+      },
+      "product_name": "Cucumber",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 393.43,
+  "customer_id": 16,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-01T02:05:21.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d791"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 539.15,
+  "customer_id": 16,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-02T03:38:32.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d792"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 5
+    }
+  ],
+  "segment": "others",
+  "total_amount": 85,
+  "customer_id": 16,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-20T23:36:12.554Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d793"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e0"
+      },
+      "product_name": "The Lord of the Rings",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db8dc170421f44bbe80b7"
+      },
+      "product_name": "Washing Machine",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 696,
+  "customer_id": 16,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-08T00:16:25.985Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d794"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656db764170421f44bbe80b6"
+      },
+      "product_name": "Refrigerator",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61da"
+      },
+      "product_name": "To Kill a Mockingbird",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db9189f73564819627c72"
+      },
+      "product_name": "Midnight Memories (Deluxe)",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2645,
+  "customer_id": 17,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-10T06:39:05.868Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d795"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf7"
+      },
+      "product_name": "Pain Au Chocolat",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 80.26,
+  "customer_id": 17,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-23T20:01:34.520Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d796"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5278"
+      },
+      "product_name": "Coconut Water",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 33.95,
+  "customer_id": 17,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-09T09:20:17.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d797"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbebb9f73564819627c76"
+      },
+      "product_name": "in loving memory",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dba37170421f44bbe80bb"
+      },
+      "product_name": "Dishwasher",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656dbf9a9f73564819627c7c"
+      },
+      "product_name": "Parachute",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3040,
+  "customer_id": 17,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-11T19:02:20.908Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d798"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527a"
+      },
+      "product_name": "Apple Cider",
+      "quantity": 2
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 24,
+  "customer_id": 17,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-05T02:15:52.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d799"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbaa9170421f44bbe80be"
+      },
+      "product_name": "Air Conditioning",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 2800,
+  "customer_id": 18,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-10T01:05:10.642Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d79a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526d"
+      },
+      "product_name": "OnePlus 11",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656dba4c170421f44bbe80bc"
+      },
+      "product_name": "Vacuum Cleaner",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526e"
+      },
+      "product_name": "Xiaomi Mi 12",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3600,
+  "customer_id": 18,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-13T23:13:05.577Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d79b"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61de"
+      },
+      "product_name": "Harry Potter and the Philosopher's Stone",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656db5a49f73564819627c70"
+      },
+      "product_name": "Night Visions (Deluxe)",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656dbab5170421f44bbe80bf"
+      },
+      "product_name": "Coffee Machine",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 1024,
+  "customer_id": 18,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-07T05:43:03.217Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d79c"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e2"
+      },
+      "product_name": "Brave New World",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dbf9a9f73564819627c7c"
+      },
+      "product_name": "Parachute",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656db5a49f73564819627c70"
+      },
+      "product_name": "Night Visions (Deluxe)",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656db1269f73564819627c6e"
+      },
+      "product_name": "NewJeans 1st EP 'New Jeans'",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61dc"
+      },
+      "product_name": "Pride and Prejudice",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 3048,
+  "customer_id": 18,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-24T04:26:45.529Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d79d"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61e3"
+      },
+      "product_name": "The Hobbit",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526e"
+      },
+      "product_name": "Xiaomi Mi 12",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db764170421f44bbe80b6"
+      },
+      "product_name": "Refrigerator",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 4491,
+  "customer_id": 18,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-08T12:03:37.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d79e"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 35,
+  "customer_id": 19,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-27T22:25:15.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d79f"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf4"
+      },
+      "product_name": "Cantaloupe",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 18.95,
+  "customer_id": 19,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-12T09:57:23.321Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a0"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5277"
+      },
+      "product_name": "Almond Milk",
+      "quantity": 4
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 53,
+  "customer_id": 19,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-09T22:14:13.499Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a1"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526b"
+      },
+      "product_name": "Samsung Galaxy S30",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 850,
+  "customer_id": 19,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-12T10:06:14.619Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a2"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656db5859f73564819627c6f"
+      },
+      "product_name": "Michael",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b5271"
+      },
+      "product_name": "LG Wing",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61db"
+      },
+      "product_name": "1984",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656dba8a170421f44bbe80bd"
+      },
+      "product_name": "Television",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61dd"
+      },
+      "product_name": "The Great Gatsby",
+      "quantity": 3
+    }
+  ],
+  "segment": "others",
+  "total_amount": 5181,
+  "customer_id": 19,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-21T14:28:51.233Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a3"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dba319f73564819627c73"
+      },
+      "product_name": "Born Pink",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688c40b62ecd780f8b526c"
+      },
+      "product_name": "Google Pixel 8",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db764170421f44bbe80b6"
+      },
+      "product_name": "Refrigerator",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656db915170421f44bbe80b9"
+      },
+      "product_name": "Toaster",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65764f1fd413d55feaad61da"
+      },
+      "product_name": "To Kill a Mockingbird",
+      "quantity": 1
+    }
+  ],
+  "segment": "others",
+  "total_amount": 4383,
+  "customer_id": 20,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-15T02:25:30.829Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a4"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 3
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 5.84,
+  "customer_id": 20,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-08T21:07:12.872Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a5"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbc0c9f73564819627c75"
+      },
+      "product_name": "On a Spaceship",
+      "quantity": 4
+    }
+  ],
+  "segment": "others",
+  "total_amount": 68,
+  "customer_id": 20,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-06T05:08:53.677Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a6"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656dbad79f73564819627c74"
+      },
+      "product_name": "For All The Dogs",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656db5a49f73564819627c70"
+      },
+      "product_name": "Night Visions (Deluxe)",
+      "quantity": 2
+    }
+  ],
+  "segment": "others",
+  "total_amount": 184,
+  "customer_id": 20,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-12T19:44:10.630Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6578685fce3df229b6b2d7a7"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527d"
+      },
+      "product_name": "Ginger Beer",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfa"
+      },
+      "product_name": "Milk Brownies",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf6"
+      },
+      "product_name": "Pineapple",
+      "quantity": 5
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 2
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527b"
+      },
+      "product_name": "Berry Smoothie",
+      "quantity": 5
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 116.72999999999999,
+  "customer_id": 20,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-11-15T07:11:09.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657868d6ce3df229b6b2d7bb"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf9"
+      },
+      "product_name": "Croissant",
+      "quantity": 4
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e2492bfd49374e0bf2"
+      },
+      "product_name": "Box Of Apple",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bfb"
+      },
+      "product_name": "Christmas Cupcakes",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b527e"
+      },
+      "product_name": "Pomegranate Juice",
+      "quantity": 1
+    },
+    {
+      "product_id": {
+        "$oid": "656ba1e3492bfd49374e0bf5"
+      },
+      "product_name": "Broccoli",
+      "quantity": 3
+    },
+    {
+      "product_id": {
+        "$oid": "65688ffab62ecd780f8b5279"
+      },
+      "product_name": "Green Tea",
+      "quantity": 1
+    }
+  ],
+  "segment": "fresh",
+  "total_amount": 421.45,
+  "customer_id": 10,
+  "status": "Delivered",
+  "payment_timestamp": {
+    "$date": "2023-12-14T03:56:20.908Z"
+  }
+}]
