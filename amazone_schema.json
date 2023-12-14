@@ -16,7 +16,7 @@ customers{
         "city": "text",
         "postcode": "text",
         "country": "text",
-    },
+    }, // can have multiple addresses
     "customer_credit": "float"
 }
 
@@ -34,7 +34,7 @@ past_orders{
     "total_amount": "float", // total_amount = quantity of product * price of product
     "customer_id": ref <customers._id>"int",
     "status": "text", //Always Delivered
-    "payment_timestamp": "date time format"
+    "payment_timestamp": "date time format" // Date and time when the payment was made
 }
 
 current_orders{
@@ -98,7 +98,7 @@ Product{
     "standard_price_to_customers": "float",
     "cost_of_products_from_morrizon": "float",
     "nearest_store_id": ref <stores._id>
-}
+} // Fresh Products
 
 Product{
     "_id": "int",
